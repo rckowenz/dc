@@ -1,0 +1,19 @@
+when making a new cog, copy and paste this
+
+no code has to be changed but 'TEXT'
+
+Change 'TEXT' to the cog name... 
+
+
+
+
+import discord
+
+from discord.ext import commands
+
+class TEXT(commands.Cog):
+    def __init__(self, bot):
+        self.bot = bot
+
+async def setup(bot):
+    await bot.add_cog(TEXT(bot))

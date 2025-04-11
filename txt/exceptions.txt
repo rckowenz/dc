@@ -1,0 +1,2 @@
+        except Exception as e:
+            await ctx.send(f"Oopsie whoopsie ^_^ we made a fucky wucky Bingo Wingo :3333 Wawwww Wepowt! `{type(e).__name__}: {e}` ~ Senpai chan >.<")
